@@ -1,2 +1,11 @@
 # Export-CalDAV
-Exports a users calendar from a CalDAV server
+Exports a user's calendar from a CalDAV server
+
+# Requirements
+* curl
+* xpath
+
+# Usage
+
+./export-calendar.sh USERNAME 'PASSWORD'
+
