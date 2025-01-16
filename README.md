@@ -1,5 +1,5 @@
 # Export-CalDAV
-Exports a user's calendar from a CalDAV server
+Export contacts & calendar items from a CalDAV/CardDAV server
 
 # Requirements
 * curl
@@ -7,5 +7,22 @@ Exports a user's calendar from a CalDAV server
 
 # Usage
 
-./export-calendar.sh USERNAME 'PASSWORD'
+    ./export-contacts.sh USERNAME 'PASSWORD' > contacts.vcf
+    
+    ./export-calendar.sh USERNAME 'PASSWORD' > calendar.ics
+  
+# License
+
+Copyright (C) 2025 MXGuardian LLC
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
 
